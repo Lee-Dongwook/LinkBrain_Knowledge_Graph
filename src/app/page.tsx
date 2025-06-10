@@ -1,3 +1,8 @@
+import { Flow } from "../components/react-flow";
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Flow />
+    </div>
+  );
 }
